@@ -5,7 +5,7 @@
 ## Solution code
 
 # 1.BMI Calculator
-```
+```javascript
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function (e) {
