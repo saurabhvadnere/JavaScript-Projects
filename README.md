@@ -1,6 +1,6 @@
 ## JavaScript-Projects
 
-# This project file mainly focus on javascript
+## This project mainly focus on javascript
 
 ## Solution code
 
