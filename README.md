@@ -26,10 +26,5 @@ form.addEventListener('submit', function (e) {
   }
 });
 
-const less = document.querySelector("#less")
-const normal = document.querySelector("#normal")
-const over = document.querySelector("#over")
-const guid = document.querySelector('#guide')
-
 ```
 
