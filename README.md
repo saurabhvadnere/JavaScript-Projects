@@ -27,7 +27,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-#Color Changer
+# 2.Color Changer
 ```javascript
 const buttons =document.querySelectorAll('.button');
 const body = document.querySelector('body');
@@ -58,4 +58,16 @@ buttons.forEach(function (button) {
   })
 });
 
+```
+
+# 3.Simple Digital Clock
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());   // this line will excute in browers console. only for understand purpose
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 ```
